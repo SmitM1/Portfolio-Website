@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smit's Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="sidebar">
+            <li onClick=hideSidebar()><a href="#"><img src="./images/close-icon.png" alt="close-icon"></a></li>
+            <li><a href="./index.html#home">HOME</a></li>
+            <li><a href="./index.html#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="./index.html#contact">CONTACT</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="mailto:smit.mstr1@gmail.com" class="title-email">smit.mstr1@gmail.com</a></li>
+            <li class="hideOnMobile"><a href="./index.html#home">HOME</a></li>
+            <li class="hideOnMobile"><a href="./index.html#about">ABOUT</a></li>
+            <li class="hideOnMobile"><a href="#projects">PROJECTS</a></li>
+            <li class="hideOnMobile"><a href="./index.html#contact">CONTACT</a></li>
+            <li class="menu-button" onClick=showSidebar()><a href="#"><img src="./images/menu-icon.png" alt="menu-icon"></a></li>
+        </ul>
+    </nav>
+
+    <div id="project-heading">
+        <img src="./images/Project-heading-slice.png" class="heading-slice">
+        <h1>Projects</h1>
+    </div>
+
+    <section id="main-projects">
+        <div class="main-project proj-main-1">
+            <h1>
+                RAJKOT MUNICIPAL CORPORATION (RMC) CHATBOT USING DIALOGFLOW
+            </h1>
+            <p>
+                Chatbot powered by FastAPI server, <br>
+                Frontend done by HTML and CSS.
+            </p>
+            <a href="./Single-1.html">
+               <button class="CV">SEE MORE</button> 
+            </a>
+            
+        </div>
+
+        <div class="main-project proj-main-2">
+            <h1>
+                LSTM-based Voice-to-Text and Song Lyric Generation Model
+            </h1>
+            <p>
+                Generation Model powered by <br>
+                Flask server.
+            </p>
+            <a href="./single-2.html">
+                <button class="CV">SEE MORE</button>
+            </a>
+            
+        </div>
+
+        <div class="main-project proj-main-3">
+            <h1>
+                GTU Result Analyzer Using Python
+            </h1>
+            <p>
+                Analyzer powered by Flask server <br>
+                and Pandas library
+            </p>
+            <a href="./single-3.html">
+                <button class="CV">READ MORE</button>
+            </a>
+        </div>
+
+        <div class="main-project proj-main-4">
+            <h1>
+                Bengaluru Home: Price Predictor
+            </h1>
+            <p>
+                Price Predictor powered by <br>
+                Flask server.
+            </p>
+            <a href="./single-4.html">
+                <button class="CV">SEE MORE</button>
+            </a>
+            
+        </div>
+
+    </section>
+
+
+    <section id="secondary-projects">
+        <div class="secondary-projects-list">
+            <div class="grid-item-1 grid-item">
+                <a href="https://github.com/SmitM1/CIFAR10-Image-Classification-using-ANN">
+                    <img src="./images/Image Classification.jpg">
+                </a>
+                
+                <h3>CIFAR10 IMAGE CLASSIFICATION <br>
+                    USING Artificial Neural Network(ANN)
+                </h3>
+                <p>
+                    CIFAR10 Image Classification using ANN <br>
+                    achieved 91.11% accuracy.
+                </p>
+                <a href="https://github.com/SmitM1/CIFAR10-Image-Classification-using-ANN">
+                    <button class="CV">READ MORE</button>
+                </a>
+            </div>
+
+            <div class="grid-item-2 grid-item">
+                <a href="https://github.com/SmitM1/Movie-Recommender-System-Using-Content-Based-Filtering">
+                    <img src="./images/movie recommender.png">
+                </a>
+                
+                <h3>MOVIE RECOMMENDER SYSTEM</h3>
+                <p>
+                    Movie Recommender System Using Content <br>
+                    Based Filtering algorithm.    
+                </p>
+                <a href="https://github.com/SmitM1/Movie-Recommender-System-Using-Content-Based-Filtering">
+                    <button class="CV">READ MORE</button>
+                </a>
+            </div>
+
+
+            <div class="grid-item-3 grid-item">
+                <a href="https://github.com/SmitM1/Handwritten-Digits-Classification-using-Neural-Network">
+                    <img src="./images/notes.png">
+                </a>
+                
+                <h3>HANDWRITTEN DIGITS CLASSIFICATION</h3>
+                <p>
+                    Handwritten Digits Classification using <br>
+                    Neural Network.    
+                </p>
+                <a href="https://github.com/SmitM1/Handwritten-Digits-Classification-using-Neural-Network">
+                    <button class="CV">READ MORE</button>
+                </a>
+            </div>
+            
+            <div class="grid-item-4 grid-item">
+                <a href="https://github.com/SmitM1/Email-Spam-Detection-using-Vectorizer-and-Naive-Bayes-Classifier">
+                    <img src="./images/email-spam.png">
+                </a>
+                
+                <h3>EMAIL SPAM DETECTION</h3>
+                <p>
+                    Email Spam Detection using Count Vectorizer and <br>
+                    Naive Bayes Classifier(MultinomialNB)    
+                </p>
+                <a href="https://github.com/SmitM1/Email-Spam-Detection-using-Vectorizer-and-Naive-Bayes-Classifier">
+                    <button class="CV">READ MORE</button>
+                </a>
+            </div>
+
+            <div class="grid-item-5 grid-item">
+                <a href="https://github.com/SmitM1/Coronary-Heart-Disease-Prediction-Using-Neural-Network">
+                   <img src="./images/Coronary-Heart_disease.png"> 
+                </a>
+                
+                <h3>CORONARY HEART DISEASE PREDICTION </h3>
+                <p>
+                    Coronary Heart Disease Prediction using  <br>
+                    various classification and regression models.    
+                </p>
+                <a href="https://github.com/SmitM1/Coronary-Heart-Disease-Prediction-Using-Neural-Network">
+                    <button class="CV">READ MORE</button>
+                </a>
+            </div>
+
+            <div class="grid-item-6 grid-item">
+                <a href="https://github.com/SmitM1/Breast-Cancer-Diagnosis-using-KNN-and-Cross-Validation">
+                    <img src="./images/Breast-cancer.png">
+                </a>
+                
+                <h3>BREAST CANCER DIAGNOSIS</h3>
+                <p>
+                    Breast Cancer Diagnosis prediction using K Nearest <br>
+                    Neighbor Classifier and cross validation els.    
+                </p>
+                <a href="https://github.com/SmitM1/Breast-Cancer-Diagnosis-using-KNN-and-Cross-Validation">
+                    <button class="CV">READ MORE</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer">
+            <div class="first">
+                <h1>Smit Mistry</h1>
+                <p>AI & ML Engineer</p>
+            </div>
+    
+            <div class="second">
+                <a href="https://www.linkedin.com/in/smitm1/" class="contact-link">
+                    <img src="./images/linkedin.svg" class="foot-linkedin">
+                </a>
+                <a href="https://github.com/SmitM1" class="contact-link">
+                    <img src="./images/github.svg" class="foot-github">
+                </a>
+            </div>
+    
+            <div class="third">
+                <p>© Copyright Smit Mistry. All rights reserved</p>   
+            </div>
+        </div>
+    </section>
+
+ 
+    
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
