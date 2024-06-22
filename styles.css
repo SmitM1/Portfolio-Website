@@ -963,7 +963,9 @@ section#contact.active h1 {
     position: relative;
     height: 12vh;
     background-color: #312F2F;
+    margin-top: 49px;
 }
+#single-project {margin-top:49px;}
 
 #project-heading h1 {
     padding-top: 8px;
